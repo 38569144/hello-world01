@@ -2,7 +2,7 @@
 git pull
 
 # 安装依赖和打包
-npm install --registry=https://registry.npm.taobao.org/ && npm run build
+sudo npm install --registry=https://registry.npm.taobao.org/ && sudo npm run build
 
 # 删除容器
 docker rm -f demo1 &> /dev/null
